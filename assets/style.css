@@ -13,8 +13,8 @@ body {
 .section1 {
 	background-color: #0e8bf1;
 	background: linear-gradient(#0e65de, #0e8bf1);
-	min-height: 100vh;
 	color: #fff;
+	padding-bottom: 40px;
 }
 .section1 > .columns {
 	display: flex;
@@ -52,10 +52,19 @@ body {
 .section1 > .columns > .column.content img {
 	width: 230px;
 }
-.section1 > .columns > .column.content .app-store {
+
+.section1 > .columns > .column.content .store {
+	align-items: center;
+	width: 100%;
 }
-.section1 > .columns > .column.content .app-store img {
-  width: 200px;
+.section1 > .columns > .column.content .store .ios-store {
+}
+.section1 > .columns > .column.content .store .ios-store img {
+  width: 170px;
+  margin-top: 30px;
+}
+.section1 > .columns > .column.content .store .android-store img {
+  width: 170px;
   margin-top: 30px;
 }
 .section1 > .columns > .column.content p {
