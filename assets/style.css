@@ -31,7 +31,7 @@ body {
   padding-right: 50px;
   position: relative;
 }
-.section1 > .columns > .column.phone > video {
+.section1 > .columns > .column.phone .video > video {
 	position: absolute;
 	top:50px;
 	left: 0;
@@ -97,9 +97,28 @@ body {
 }
 
 
-
+@media screen and (min-width: 651px) { 
+	.section1 > .columns > .column.phone .gif {
+		display: none;
+	}
+}
 
 @media screen and (max-width: 650px) {
+
+	.section1 > .columns > .column.phone .video > video {
+		display: none;
+	}
+
+	.section1 > .columns > .column.phone .gif {
+		position: absolute;
+		top:50px;
+		left: 0;
+		padding-left: 12px;
+		padding-top: 3px;
+
+	}
+
+
 	.section1 > .columns {
 		flex-direction: column;
 	}
