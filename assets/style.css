@@ -56,12 +56,14 @@ body {
 .section1 > .columns > .column.content .store {
 	align-items: center;
 	width: 100%;
+	padding-bottom: 20px;
 }
 .section1 > .columns > .column.content .store .ios-store {
 }
 .section1 > .columns > .column.content .store .ios-store img {
   width: 170px;
   margin-top: 30px;
+  padding-right: 10px;
 }
 .section1 > .columns > .column.content .store .android-store img {
   width: 170px;
@@ -88,6 +90,12 @@ body {
 	color: #0e8bf1;
 	margin-left: 8px;
 }
+
+.section4 img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -129,6 +137,13 @@ body {
 	.section1 > .columns > .column.content .app-store {
 		align-self: center;
 	}
+
+	.section4 img {
+    display: block;
+	  max-width:650px;
+	  width: auto;
+	  height: auto;
+	}
 }
 
 
@@ -169,30 +184,6 @@ body {
 .section2 .infoblock h5 {
 	margin: 0;
 
-}
-
-
-
-
-
-
-.section3 {
-	background: url(./images/map.png);
-	background-size: cover;
-	background-position: center center;
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.section3 p {
-	max-width: 600px;
-	color: #fff;
-	font-size: 40px;
-	line-height: 48px;
-	font-weight: bold;
-	text-align: center;
 }
 
 .main-text-content {
